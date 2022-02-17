@@ -1,9 +1,10 @@
+# Flutter build
+
 - task: FlutterInstall@0
   inputs:
     channel: 'stable'
     version: 'latest'
-
-# Flutter build
+    
 variables:
   projectDirectory: sample_project
 
